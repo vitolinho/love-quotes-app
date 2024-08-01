@@ -2,6 +2,7 @@ import { useQuery } from "react-query"
 import { getLoveQuote } from "./services/loveQuotes"
 import copyToClipboard from "./utils/copyToClipboard"
 import { FaHeart } from "react-icons/fa6"
+import { useToast } from "@/components/ui/use-toast"
 
 function App() {
   const { data, refetch } = useQuery({
@@ -12,10 +13,18 @@ function App() {
     refetch()
     if (data) {
       copyToClipboard(String(data.data))
+      toast({
+        title: String(data.data),
+        description: "Le mot d'amour a été copié dans votre presse-papier.",
+      })
     } else {
-      console.error('Problèmes de compétences')
+      toast({
+        variant: "destructive",
+        title: "Problèmes de compétences",
+      })
     }
   }
+  const { toast } = useToast()
 
   return (
     <>
