@@ -36,8 +36,8 @@ function App() {
           <p className="text-center text-[#390a0a]">Ces mots doux rappellent à votre moitié combien elle compte pour vous et apportent joie et réconfort.</p>
         </div>
         <button onClick={handleClick} className="relative">
-          <FaHeart className="absolute inset-0 w-[12.5rem] h-[12.5rem] text-red-300 blur-lg" />
-          <FaHeart className="relative w-[12.5rem] h-[12.5rem] text-red-500" />
+          <FaHeart className="absolute inset-0 w-[12.5rem] h-[12.5rem] text-red-300 blur-lg animate-scale" />
+          <FaHeart className="relative w-[12.5rem] h-[12.5rem] text-red-500 animate-scale" />
         </button>
       </div>
     </>
