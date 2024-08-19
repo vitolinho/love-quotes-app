@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+# Love Quotes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An intuitive app to send love around you in just a few taps! 
 
-Currently, two official plugins are available:
+## API
+Check out this link to set up API: <br>
+[https://github.com/vitolinho/love-quotes-api](https://github.com/vitolinho/love-quotes-api)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Set up locally
+Get started locally with these commands:<br>
+`pnpm install`<br>
+`pnpm dev`
 
-## Expanding the ESLint configuration
+## Code Quality
+I used to keep code clean with:
+- [Eslint](https://eslint.org/) `pnpm lint`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Stack
+Love Quotes stack:
+- [Typescript](https://www.typescriptlang.org/) - Programming Language
+- [React](https://fr.react.dev/) - JavaScript Library
+- [React Query](https://www.npmjs.com/package/react-query) - Query Management
+- [Ky](https://github.com/sindresorhus/ky#readme) - Fetching Library
+- [Eslint](https://eslint.org/) - Linter
