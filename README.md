@@ -4,7 +4,7 @@ An intuitive app to send love around you in just a few taps!
 
 ## API
 Check out this link to set up API: <br>
-[https://github.com/vitolinho/love-quotes-api](https://github.com/vitolinho/love-quotes-api)
+[https://github.com/vitolinho/love-quotes-api#readme](https://github.com/vitolinho/love-quotes-api#readme)
 
 ## Set up locally
 Get started locally with these commands:<br>
